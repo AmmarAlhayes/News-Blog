@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>News Blog</title>
+    </head>
+    <body onload="showNews();">
+        <div id="body">
+            <button id="update-btn" onclick="showNews();">Akutualisieren</button>
+            <div id="body_content"></div>
+            
+            
+        </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="popup_text"></p>
+            </div>
+        
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
