@@ -266,7 +266,7 @@ function getApiNews(count){//getApiNews
     var i;  
 
     
-    fetch('https://newsapi.org/v2/everything?q=tesla&from=2022-09-11&sortBy=publishedAt&apiKey=175dfbc3ce7f45b58d0948fc22a1045e')
+    fetch('https://newsapi.org/v2/everything?q=tesla&from=2022-09-11&sortBy=publishedAt&apiKey=')
     .then(response => response.json())
     .then(response=>{
 
