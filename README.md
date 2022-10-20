@@ -1,7 +1,7 @@
 # News-Blog
  Website to show news using News API 
 
-1- istall Xampp
+1- install Xampp
 <br>
 2- check this path: C:/xampp/htdocs/
 <br>
