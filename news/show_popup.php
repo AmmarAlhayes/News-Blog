@@ -1,11 +1,8 @@
 <?php
 
-/*$conn = mysqli_connect("localhost", "root", "", "classicmodels");*/
 
 include 'connect_to_database.php';
 
-/*$id = $_GET['q'];
-$result = mysqli_query($conn, "SELECT `first` FROM test WHERE id = $id");*/
 
 
 $btn_id = $_GET['q'];
