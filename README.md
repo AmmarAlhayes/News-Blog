@@ -9,7 +9,7 @@
 <br>
 4- open Xampp.
 <br>
-5- statr apache and then mysql.
+5- start apache and then mysql.
 <br>
 6- write in your browser this path: localhost/phpmyadmin
 <br>
