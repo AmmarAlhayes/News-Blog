@@ -1,10 +1,8 @@
 <?php
 
-/*$conn = mysqli_connect("localhost", "root", "", "classicmodels");*/
 
 include 'connect_to_database.php';
 
-//$result = mysqli_query($conn, "SELECT count(*) as row_count FROM test");
 
 $result = mysqli_query($conn, "SELECT count(*) as row_count FROM news_data");
  
